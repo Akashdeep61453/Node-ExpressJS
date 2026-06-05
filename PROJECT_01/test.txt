@@ -1,0 +1,5 @@
+In mongoose
+we define Schema(Structure)
+Schema - Model
+Using Model we do CRUD operation(create,read,update,delete)
+   
