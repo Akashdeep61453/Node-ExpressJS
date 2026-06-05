@@ -1,0 +1,12 @@
+start with client,
+client sends request server(on nodejs,php)
+all requests are moved into EventQueue
+all requests move into event loop(FIFO)
+
+Blocking request(Synchronous)
+Non Blocking request(Asynchronous) simple
+
+Blocking operation goes to a thread pool
+i need a thread/worker
+assign a worker and make him worker return the result
+(limited number of threads)
